@@ -26,11 +26,11 @@ Eshell V11.0  (abort with ^G)
 
 修改
 
-  {env,[{tcp_port, 9527},       %%socket5 server端口
+  {env,[{tcp_port, 9527},               %%socket5 server端口
   
-  {user, "test"},               %%用户名，如果删除该项是不需要验证
+  {user, "test"},                       %%用户名，如果删除该项是不需要验证
   
-  {pass, "test"}]}              %%密码
+  {pass, "test"}]}                      %%密码
  
 ## 说明
 
