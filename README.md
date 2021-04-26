@@ -36,7 +36,7 @@ Eshell V11.0  (abort with ^G)
 
 1、目前只支持ipv4，只支持socket的connect命令
 
-2、不支持加密，socket5就是要简单，要加密请使用ssr
+2、不支持数据传输加密，socket5就是要简单，要加密请使用ssr
 
 3、支持匿名和账号2种方式，不支持定义认证，懒得支持
 
