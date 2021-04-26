@@ -6,7 +6,7 @@ socket proxy server by erlang
 
 git clone https://github.com/tanwen321/ss5_proxy.git
 
-##编译使用 rebar
+## 编译使用 rebar
 
 rebar3 compile
 
