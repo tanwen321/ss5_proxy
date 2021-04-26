@@ -1,0 +1,16 @@
+{application, ss5_proxy,
+ [{description, "An OTP application of socket5 proxy server."},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {ss5_proxy_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[{tcp_port, 9527}, 
+  {user, "test"}, 
+  {pass, "test"}]},
+  {modules, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
