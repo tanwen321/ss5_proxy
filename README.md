@@ -2,7 +2,7 @@
 socket proxy server by erlang
 
 
-##安装
+## 安装
 
 git clone https://github.com/tanwen321/ss5_proxy.git
 
@@ -22,7 +22,7 @@ Eshell V11.0  (abort with ^G)
 1> application:start(ss5_proxy).
 
 
-##配置src/ss5_proxy.app.src 文件
+## 配置src/ss5_proxy.app.src 文件
 
 修改
 
@@ -32,4 +32,14 @@ Eshell V11.0  (abort with ^G)
   
   {pass, "test"}]}              %%密码
  
- 
+## 说明
+
+1、目前只支持ipv4，只支持socket的connect命令
+
+2、不支持加密，socket5就是要简单，要加密请使用ssr
+
+3、支持匿名和账号2种方式，不支持定义认证，懒得支持
+
+
+
+
