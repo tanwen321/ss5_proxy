@@ -1,5 +1,5 @@
 # ss5_proxy
-socket proxy server by erlang
+socket5 proxy server by erlang
 
 
 ## 安装
@@ -34,7 +34,7 @@ Eshell V11.0  (abort with ^G)
  
 ## 说明
 
-1、目前只支持ipv4，只支持socket的connect命令
+1、目前只支持ipv4，只支持socket5的connect命令
 
 2、不支持数据传输加密，socket5就是要简单，要加密请使用ssr
 
